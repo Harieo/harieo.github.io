@@ -1,11 +1,40 @@
 .body-introduction {
+    display: block;
     text-align: center;
+    justify-content: center;
     padding-top: 30px;
 }
 
-.introduction img {
-    width: 1683px;
-    height: 1000px;
+.body-introduction a {
+    text-decoration: none;
+    color: white;
+}
+
+.body-introduction div {
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    padding: 10px 30px;
+}
+
+.about-me {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#contact-button {
+    border-width: 0px;
+    width: 110px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 5px;
+    
+}
+
+#contact-button p {
+    background-color: #90bc16;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px;
 }
 
 #green {
