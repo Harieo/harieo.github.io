@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Dokdo');
+
+body {
+    font-family: Arvo, 'Raleway', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+}
+
+footer {
+    text-align: center;
+}
+
+.navbar {
+    font-family: 'Dokdo', cursive;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    box-shadow: 10px 0px 5px grey;
+}
+
+.navbar a {
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    color: black;
+}
+
+.navbar li {
+    display: inline;
+    font-size: 1.5em;
+}
+
+.navbar-button a:hover {
+    background-color: black;
+    color: white;
+}
+
+#navbar-logo {
+    margin-right: 10%;
+    padding: 0px 10px 0px 10px;
+}
+
+#intro-name {
+    color: #d57ae2;
+}
+
