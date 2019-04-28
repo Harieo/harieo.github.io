@@ -1,3 +1,7 @@
+a {
+	text-decoration: none;
+}
+
 .body-introduction {
     display: block;
     text-align: center;
@@ -30,17 +34,34 @@
 }
 
 .feature-container div {
-    padding: 0% 5%;
     margin: 0% 5%;
+	width: 20%;
 }
 
 .feature {
     border-width: 1px;
     border-style: solid;
     border-radius: 10px;
-    margin: 2%;
     height: 500px;
-    width: 200px;
+}
+
+.feature p {
+	padding: 15px 5px;
+}
+
+.feature-contact-button {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 7px;
+	padding: 10px;
+	background-color: #90bc16;
+	color: white;
+}
+
+.feature-contact-button:hover {
+	border-color: #90bc16;
+	color: #90bc16;
+	background-color: white;
 }
 
 #lower-feature {
