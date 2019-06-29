@@ -20,6 +20,35 @@ a {
     padding: 10px 30px;
 }
 
+.body {
+	text-align: center;
+	justify-content: center;
+	margin-top: 17%;
+	display: flex;
+}
+
+.body-name {
+	margin: 0px 20px;
+	padding: 10px;
+	vertical-align: middle;
+	border-right: 2px solid darkslategrey;
+	object-fit: cover;
+}
+
+.body-image-link {
+	display: flex;
+	vertical-align: middle;
+}
+
+.body-image-link h4 {
+	margin: 10px;
+}
+
+.body-image-link img {
+	width: 32px;
+	height: 32px;
+}
+
 .about-me {
     width: 60%;
     margin: 0 auto;
@@ -62,6 +91,11 @@ a {
 	border-color: #90bc16;
 	color: #90bc16;
 	background-color: white;
+}
+
+.footer {
+	position: absolute;
+	bottom: 5px;
 }
 
 #lower-feature {
