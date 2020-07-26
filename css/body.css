@@ -1,5 +1,6 @@
 a {
-	text-decoration: none;
+    text-decoration: none;
+    color: #0645AD;
 }
 
 .body-introduction {
@@ -21,32 +22,37 @@ a {
 }
 
 .body {
-	text-align: center;
-	justify-content: center;
-	margin-top: 17%;
-	display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 17%;
+    display: flex;
 }
 
 .body-name {
-	margin: 0px 20px;
-	padding: 10px;
-	vertical-align: middle;
-	border-right: 2px solid darkslategrey;
-	object-fit: cover;
+    margin: 0px 20px;
+    padding: 10px;
+    vertical-align: middle;
+    border-right: 2px solid darkslategrey;
+    object-fit: cover;
 }
 
 .body-image-link {
-	display: flex;
-	vertical-align: middle;
+    display: flex;
 }
 
 .body-image-link h4 {
-	margin: 10px;
+    margin: 10px;
+    font-weight: normal;
 }
 
 .body-image-link img {
-	width: 32px;
-	height: 32px;
+    width: 32px;
+    height: 32px;
+}
+
+.body-links iframe {
+    display: block;
+    text-align: left;
 }
 
 .about-me {
@@ -63,8 +69,8 @@ a {
 }
 
 .feature-container div {
-    margin: 0% 5%;
-	width: 20%;
+    margin: 0 5%;
+    width: 20%;
 }
 
 .feature {
@@ -75,27 +81,37 @@ a {
 }
 
 .feature p {
-	padding: 15px 5px;
+    padding: 15px 5px;
 }
 
 .feature-contact-button {
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 7px;
-	padding: 10px;
-	background-color: #90bc16;
-	color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: #90bc16;
+    color: white;
 }
 
 .feature-contact-button:hover {
-	border-color: #90bc16;
-	color: #90bc16;
-	background-color: white;
+    border-color: #90bc16;
+    color: #90bc16;
+    background-color: white;
 }
 
 .footer {
-	position: static;
-	bottom: 5px;
+    position: static;
+    bottom: 5px;
+}
+
+.sponsor-box {
+    text-align: center;
+}
+
+.sponsor-box iframe {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 50px;
 }
 
 #lower-feature {
@@ -108,7 +124,7 @@ a {
     height: 20px;
     margin: 0 auto;
     padding: 5px;
-    
+
 }
 
 #contact-button p {
