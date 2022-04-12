@@ -2,13 +2,19 @@
 <html lang="en-GB">
 <head>
     <title>Harieo - Home</title>
-    <link href="css/nav.css" type="text/css" rel="stylesheet">
     <link href="css/body.css" type="text/css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 </head>
 
 <body>
-<?php include 'public/navbar.php'; ?>
+<div class="navbar">
+    <ul>
+        <li id="navbar-logo">Harieo</li>
+        <li class="navbar-button"><a href="index.html">Home</a></li>
+        <li class="navbar-button"><a href="about.html">About Me</a></li>
+        <li class="navbar-button"><a href="mailto:business@harieo.net" target="_blank">Contact</a></li>
+    </ul>
+</div>
 
 <div class="body">
     <div class="body-name">
@@ -36,11 +42,10 @@
     </div>
 </div>
 
-<div class="sponsor-box">
-    <iframe src="https://github.com/sponsors/Harieo/card" title="Sponsor Harieo" height="225" width="600"
-            style="border: 0;"></iframe>
+<div class="footer">
+    <p class="dark-mode-only" style="color: #1c0118;">You're viewing in Dark Mode</p>
+    <p class="light-mode-only" style="color: white;">You're viewing in Light Mode</p>
+    <p>&copy; 2022 Harieo on <a href="https://github.com/Harieo" target="_blank">GitHub</a></p>
 </div>
-
-<?php include 'public/footer.php'; ?>
 </body>
 </html>

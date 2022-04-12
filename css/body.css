@@ -1,3 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Dokdo');
+
+/* COLOUR SCHEME STYLE */
+
+@media (prefers-color-scheme: light) {
+    html {
+        background: #d2d0ba;
+        color: #104547;
+    }
+
+    .navbar {
+        background: #7b9e87;
+    }
+
+    .navbar, .navbar a {
+        color: white;
+    }
+
+    .body-name {
+        border-right: 2px solid darkslategray;
+    }
+
+    .body-name, .body-links a {
+        color: #104547;
+    }
+
+    .dark-mode-only {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background: #7a6563;
+        color: #ece2d0;
+    }
+
+    .navbar {
+        background: #1c0118;
+    }
+
+    .navbar, .navbar a {
+        color: white;
+    }
+
+    .body-name {
+        border-right: 2px solid #1c0118;
+    }
+
+    .body-name, .body-links a {
+        color: #ece2d0;
+    }
+
+    .footer a {
+        color: #1c0118;
+        text-decoration: underline;
+    }
+
+    .light-mode-only {
+        visibility: hidden;
+        display: none;
+    }
+
+    .dark-mode-only p {
+        color: #1c0118;
+    }
+}
+
+/* NAVIGATION STYLE */
+
+body {
+    font-family: Arvo, 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    position: unset;
+    bottom: 5px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.navbar {
+    font-family: 'Dokdo', cursive;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    box-shadow: 10px 0 5px grey;
+}
+
+.navbar a {
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 20px;
+}
+
+.navbar li {
+    display: inline;
+    font-size: 1.5em;
+}
+
+.navbar-button a:hover {
+    background-color: black;
+    color: white;
+}
+
+#navbar-logo {
+    margin-right: 10%;
+    padding: 0 10px 0 10px;
+}
+
+#intro-name {
+    color: #d57ae2;
+}
+
+/* MAIN BODY STYLE */
+
 a {
     text-decoration: none;
     color: #0645AD;
@@ -16,7 +143,7 @@ a {
 }
 
 .body-introduction div {
-    border-width: 0px 1px 0px 1px;
+    border-width: 0 1px 0 1px;
     border-style: solid;
     padding: 10px 30px;
 }
@@ -29,10 +156,9 @@ a {
 }
 
 .body-name {
-    margin: 0px 20px;
+    margin: 0 20px;
     padding: 10px;
     vertical-align: middle;
-    border-right: 2px solid darkslategrey;
     object-fit: cover;
 }
 
@@ -64,7 +190,7 @@ a {
     display: flex;
     text-align: center;
     justify-content: center;
-    border-width: 0px;
+    border-width: 0;
     margin-top: 3%;
 }
 
@@ -119,7 +245,7 @@ a {
 }
 
 #contact-button {
-    border-width: 0px;
+    border-width: 0;
     width: 110px;
     height: 20px;
     margin: 0 auto;
@@ -131,7 +257,7 @@ a {
     background-color: #90bc16;
     border-radius: 10px;
     padding: 5px;
-    margin: 0px;
+    margin: 0;
 }
 
 #green {
