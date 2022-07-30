@@ -4,6 +4,7 @@
     <title>Harieo - Home</title>
     <link href="css/body.css" type="text/css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <script src="scripts/ThemeToggle.js"></script>
 </head>
 
 <body>
@@ -43,8 +44,8 @@
 </div>
 
 <div class="footer">
-    <p class="dark-mode-only" style="color: #1c0118;">You're viewing in Dark Mode</p>
-    <p class="light-mode-only" style="color: white;">You're viewing in Light Mode</p>
+    <p class="dark-mode-only" style="color: #1c0118;">You're viewing in <a href="#" onclick="setTheme('light')">Dark Mode</a></p>
+    <p class="light-mode-only" style="color: white;">You're viewing in <a href="#" onclick="setTheme('dark')">Light Mode</a></p>
     <p>&copy; 2022 Harieo on <a href="https://github.com/Harieo" target="_blank">GitHub</a></p>
 </div>
 </body>

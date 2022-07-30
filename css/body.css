@@ -3,69 +3,67 @@
 
 /* COLOUR SCHEME STYLE */
 
-@media (prefers-color-scheme: light) {
-    html {
-        background: #d2d0ba;
-        color: #104547;
-    }
-
-    .navbar {
-        background: #7b9e87;
-    }
-
-    .navbar, .navbar a {
-        color: white;
-    }
-
-    .body-name {
-        border-right: 2px solid darkslategray;
-    }
-
-    .body-name, .body-links a {
-        color: #104547;
-    }
-
-    .dark-mode-only {
-        visibility: hidden;
-        display: none;
-    }
+:root {
+    --background-color: #d2d0ba;
+    --font-color: #104547;
+    --navbar-background: #7b9e87;
+    --navbar-color: white;
+    --body-name-border: darkslategray;
+    --light-mode-visibility: visible;
+    --dark-mode-visibility: hidden;
+    --light-mode-display: block;
+    --dark-mode-display: none;
 }
 
-@media (prefers-color-scheme: dark) {
-    html {
-        background: #7a6563;
-        color: #ece2d0;
-    }
+[data-theme="dark"] {
+    --background-color: #7a6563;
+    --font-color: #ece2d0;
+    --navbar-background: #1c0118;
+    --navbar-color: white;
+    --body-name-border: #1c0118;
+    --light-mode-visibility: hidden;
+    --dark-mode-visibility: visible;
+    --light-mode-display: none;
+    --dark-mode-display: block;
+}
 
-    .navbar {
-        background: #1c0118;
-    }
+html {
+    background: var(--background-color);
+    color: var(--font-color);
+}
 
-    .navbar, .navbar a {
-        color: white;
-    }
+.navbar {
+    background: var(--navbar-background);
+}
 
-    .body-name {
-        border-right: 2px solid #1c0118;
-    }
+.navbar, .navbar a {
+    color: white;
+}
 
-    .body-name, .body-links a {
-        color: #ece2d0;
-    }
+.body-name {
+    border-right: 2px solid var(--body-name-border);
+}
 
-    .footer a {
-        color: #1c0118;
-        text-decoration: underline;
-    }
+.body-name, .body-links a {
+    color: var(--font-color);
+}
 
-    .light-mode-only {
-        visibility: hidden;
-        display: none;
-    }
+.light-mode-only {
+    visibility: var(--light-mode-visibility);
+    display: var(--light-mode-display);
+}
 
-    .dark-mode-only p {
-        color: #1c0118;
-    }
+.dark-mode-only {
+    visibility: var(--dark-mode-visibility);
+    display: var(--dark-mode-display);
+}
+
+.light-mode-only a {
+    color: white;
+}
+
+.dark-mode-only a {
+    color: var(--body-name-border)
 }
 
 /* NAVIGATION STYLE */
