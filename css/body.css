@@ -51,19 +51,21 @@ html {
 .light-mode-only {
     visibility: var(--light-mode-visibility);
     display: var(--light-mode-display);
-}
-
-.dark-mode-only {
-    visibility: var(--dark-mode-visibility);
-    display: var(--dark-mode-display);
+    color: white;
 }
 
 .light-mode-only a {
     color: white;
 }
 
+.dark-mode-only {
+    visibility: var(--dark-mode-visibility);
+    display: var(--dark-mode-display);
+    color: var(--body-name-border);
+}
+
 .dark-mode-only a {
-    color: var(--body-name-border)
+    color: var(--body-name-border);
 }
 
 /* NAVIGATION STYLE */
