@@ -1,3 +1,4 @@
+// Credit to JimmyBanks for detectColorScheme() -> https://stackoverflow.com/a/56550819
 function detectColorScheme() {
     let theme = "light";    //default to light
 
