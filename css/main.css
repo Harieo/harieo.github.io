@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=JetBrains+Mono&display=swap');
+
+html {
+    font-family: "JetBrains Mono", monospace;
+}
+
+body {
+    color: white;
+    background-color: #216CB0;
+    margin: 0;
+}
+
+.navbar {
+    display: inline-flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.navbar div {
+    padding: 0 20px;
+}
+
+.main {
+    width: 100%;
+    margin-top: 15%;
+}
+
+.main-line {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.social-icon {
+    margin: 0 12px;
+}
+
+#hi {
+    font-family: "Irish Grover", cursive;
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+#discord-tag {
+    margin-top: 5px;
+}
+
+#discord-icon {
+    margin-right: 10px;
+}
+
+.sub-main-line {
+    display: grid;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.code-block {
+    width: fit-content;
+}
+
+.indent-main-line p {
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+}
+
+.footer {
+    display: inline-flex;
+    justify-content: end;
+    width: 100%;
+}
