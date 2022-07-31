@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=JetBrains+Mono&display=swap');
+
+html {
+    font-family: "JetBrains Mono", monospace;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+}
+
+.header-text-box {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#my-portfolio {
+    font-size: 32px;
+    color: #216CB0;
+}
+
+.project-box {
+    margin: 0 25%;
+}
+
+.project-title {
+    margin-bottom: 0;
+}
+
+.project-subheading {
+    margin: 0;
+}
+
+.project-description {
+    margin-top: 5px;
+}
+
+.project-description p {
+    margin: 0;
+}
+
+.project-links {
+    display: inline-flex;
+}
+
+.project-links p {
+    margin: 16px 16px 16px 0;
+}
+
+.project-links a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.right-align p {
+    margin-right: 0;
+}
