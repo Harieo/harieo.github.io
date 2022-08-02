@@ -23,8 +23,27 @@ body {
     color: #216CB0;
 }
 
+.project-box-line {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
 .project-box {
-    margin: 0 25%;
+    width: 400px;
+}
+
+.left-align {
+    margin-right: 15%;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.right-align p {
+    margin-right: 0;
 }
 
 .project-title {
@@ -54,12 +73,4 @@ body {
 .project-links a {
     text-decoration: underline;
     color: inherit;
-}
-
-.right-align {
-    text-align: right;
-}
-
-.right-align p {
-    margin-right: 0;
 }
