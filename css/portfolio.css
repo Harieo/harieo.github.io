@@ -34,18 +34,6 @@ body {
     width: 400px;
 }
 
-.left-align {
-    margin-right: 15%;
-}
-
-.right-align {
-    text-align: right;
-}
-
-.right-align p {
-    margin-right: 0;
-}
-
 .project-title {
     margin-bottom: 0;
 }
@@ -64,6 +52,7 @@ body {
 
 .project-links {
     display: inline-flex;
+    text-decoration: underline;
 }
 
 .project-links p {
@@ -71,6 +60,17 @@ body {
 }
 
 .project-links a {
-    text-decoration: underline;
     color: inherit;
+}
+
+.left-align {
+    margin-right: 15%;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.right-align p {
+    margin-right: 0;
 }
