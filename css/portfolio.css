@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=JetBrains+Mono&display=swap');
-
-html {
-    font-family: "JetBrains Mono", monospace;
+#portfolio-wrapper {
+    position: relative;
+    min-height: 100%;
 }
 
-body {
-    margin: 0;
-}
-
-.header {
+.portfolio-header {
     width: 100%;
 }
 
@@ -73,4 +68,14 @@ body {
 
 .right-align p {
     margin-right: 0;
+}
+
+#counter-intro-footer {
+    margin-top: -1px;
+    top: 0;
+    right: 0;
+}
+
+#counter-intro-footer svg {
+    transform: rotate(180deg) scale(-1, 1);
 }

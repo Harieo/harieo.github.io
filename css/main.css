@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=JetBrains+Mono&display=swap');
-
-html {
-    font-family: "JetBrains Mono", monospace;
-}
-
-body {
-    color: white;
-    background-color: #216CB0;
-    margin: 0;
+html, body {
+    height: 100%;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+#intro-wrapper {
+    min-height: 100%;
+    position: relative;
+    color: white;
+    background-color: #216CB0;
+    white-space: nowrap;
 }
 
 .navbar {
@@ -87,10 +87,22 @@ a {
     text-align: center;
 }
 
-.footer {
+.svg-cloud {
     position: absolute;
-    display: inline-flex;
-    justify-content: end;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#intro-footer {
+    margin-bottom: -1px;
     bottom: 0;
-    right:0
+    right: 0;
+}
+
+#intro-footer svg {
+    display: inline-flex;
+}
+
+.clickable:hover {
+    cursor: pointer;
 }
