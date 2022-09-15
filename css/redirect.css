@@ -1,0 +1,16 @@
+#container {
+    text-align: center;
+    width: 100%;
+}
+
+#header {
+    margin-top: 20%;
+    color: #216CB0;
+}
+
+#footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+}
